@@ -1,7 +1,7 @@
 Summary:	Call GNOME dialog boxes from the command line
 Name:		mate-dialogs
 Version:	1.2.0
-Release:	2
+Release:	3
 License:	LGPLv2+
 Group:		Development/Other
 URL:		http://mate-desktop.org
@@ -32,7 +32,7 @@ NOCONFIGURE=yes ./autogen.sh
 %makeinstall_std
 
 # MD this file conflicts with zenity
-rm -f %{buildroot}%{_bindir}gdialog
+rm -f %{buildroot}%{_bindir}/gdialog
 
 %find_lang matedialog --with-gnome
 %find_lang %{name}
@@ -40,7 +40,6 @@ cat matedialog.lang >> %{name}.lang
 
 %files -f %{name}.lang
 %doc AUTHORS COPYING HACKING NEWS README THANKS TODO
-%{_bindir}/gdialog
 %{_bindir}/matedialog
 %dir %{_datadir}/matedialog
 %{_datadir}/matedialog/*
