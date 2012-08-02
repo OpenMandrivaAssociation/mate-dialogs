@@ -1,11 +1,11 @@
 Summary:	Call GNOME dialog boxes from the command line
 Name:		mate-dialogs
-Version:	1.2.0
-Release:	3
+Version:	1.4.0
+Release:	1
 License:	LGPLv2+
 Group:		Development/Other
 URL:		http://mate-desktop.org
-Source0:	http://pub.mate-desktop.org/releases/1.2/%{name}-%{version}.tar.xz
+Source0:	http://pub.mate-desktop.org/releases/1.4/%{name}-%{version}.tar.xz
 
 BuildRequires:	docbook-dtd412-xml
 BuildRequires:	intltool
