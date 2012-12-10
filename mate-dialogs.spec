@@ -49,3 +49,22 @@ cat matedialog.lang >> %{name}.lang
 # properly found with find-lang.sh
 %{_datadir}/mate/help/*
 
+
+
+%changelog
+* Thu Aug 02 2012 Matthew Dawkins <mattydaw@mandriva.org> 1.4.0-1
++ Revision: 811578
+- new version 1.4.0
+
+* Tue Jun 12 2012 Matthew Dawkins <mattydaw@mandriva.org> 1.2.0-3
++ Revision: 805260
+- rebuild really deleting gdialog now
+
+* Mon Jun 11 2012 Matthew Dawkins <mattydaw@mandriva.org> 1.2.0-2
++ Revision: 804434
+- rebuild removing conflicting file gdialog with zenity
+
+* Fri Jun 01 2012 Matthew Dawkins <mattydaw@mandriva.org> 1.2.0-1
++ Revision: 801805
+- imported package mate-dialogs
+
