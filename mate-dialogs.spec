@@ -3,7 +3,7 @@
 Summary:	Call GNOME dialog boxes from the command line
 Name:		mate-dialogs
 Version:	1.8.0
-Release:	1
+Release:	2
 License:	LGPLv2+
 Group:		Development/Other
 Url:		http://mate-desktop.org
