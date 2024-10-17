@@ -6,7 +6,7 @@ Version:	1.8.0
 Release:	2
 License:	LGPLv2+
 Group:		Development/Other
-Url:		http://mate-desktop.org
+Url:		https://mate-desktop.org
 Source0:	http://pub.mate-desktop.org/releases/%{url_ver}/%{name}-%{version}.tar.xz
 BuildRequires:	intltool
 BuildRequires:	mate-common
